@@ -1,0 +1,22 @@
+Bu proje insertion sort hakkındadır.
+ Proje 1
+ [22,27,16,2,18,6] -> Insertion Sort
+
+ 1. YDizinin sort türüne göre aşamaları.
+
+                         [22,27,16,2,18,6]  ; n
+                         [2,27,16,22,18,6]  ; n-1
+                         [2,6,16,22,18,27]  ; n-2
+                         [2,6,16,18,22,27]  ; n-3
+
+
+ 2. Big-O gösterimi.
+                       (n*(n+1)/2)=((n^2)+n)/2=(n^2/2)+(n/2)
+                       O(n^2)
+
+
+
+ Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+ 3. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+     Aveage case'e girer.
+
